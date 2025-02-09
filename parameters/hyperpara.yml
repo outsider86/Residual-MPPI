@@ -1,0 +1,767 @@
+############################################  Hopper  ############################################
+### Original
+Hopper-original:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 8
+  num_samples: 10000
+
+# Horizon
+Hopper-6-10000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 6
+  num_samples: 10000
+Hopper-7-10000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 7
+  num_samples: 10000
+Hopper-8-10000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 8
+  num_samples: 10000
+Hopper-9-10000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 9
+  num_samples: 10000
+Hopper-10-10000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+
+  horizon: 10
+  num_samples: 10000
+
+# Samples
+Hopper-8-10:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10
+
+Hopper-8-100:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 100
+
+Hopper-8-1000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 1000
+
+Hopper-8-5000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 5000
+Hopper-8-7500:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 7500
+#Hopper-8-10000
+Hopper-8-12500:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 12500
+Hopper-8-15000:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 15000
+
+# Lambda
+Hopper-l1e-3:
+  gamma: 0.9
+  lambda_: 0.001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+Hopper-l1e-4:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+#Hopper-l1e-5
+Hopper-l1e-6:
+  gamma: 0.9
+  lambda_: 0.000001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+Hopper-l1e-7:
+  gamma: 0.9
+  lambda_: 0.0000001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+
+
+# MPPIScale
+Hopper-m0:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+Hopper-m1e-7:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+#Hopper-m2e-7
+Hopper-m3e-7:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000003
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+Hopper-m4e-7:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000004
+  init_cov_diag: 0.005
+  horizon: 8
+  num_samples: 10000
+
+# Noise Std.
+Hopper-s1e-3:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.001
+  horizon: 8
+  num_samples: 10000
+Hopper-s3e-3:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.003
+  horizon: 8
+  num_samples: 10000
+# Hopper-s5e-3
+Hopper-s7e-3:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.007
+  horizon: 8
+  num_samples: 10000
+Hopper-s9e-3:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.009
+  horizon: 8
+  num_samples: 10000
+
+
+
+
+##############################################  Swimmer  #################################################
+### Original
+Swimmer-original:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+
+# Horizon
+Swimmer-3-5000:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 3
+  num_samples: 5000
+Swimmer-4-5000:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 4
+  num_samples: 5000
+Swimmer-5-5000:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+Swimmer-6-5000:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 6
+  num_samples: 5000
+Swimmer-7-5000:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 7
+  num_samples: 5000
+
+# Samples
+Swimmer-5-50:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 50
+Swimmer-5-500:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 500
+
+Swimmer-5-2500:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 2500
+Swimmer-5-3750:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 3750
+#Swimmer-5-5000:
+Swimmer-5-6250:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 6250
+Swimmer-5-7500:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 7500
+
+# Lambda
+Swimmer-l1e-2:
+  gamma: 0.9
+  lambda_: 0.01
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+Swimmer-l1e-3:
+  gamma: 0.9
+  lambda_: 0.001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+#Swimmer-l1e-4
+Swimmer-l1e-5:
+  gamma: 0.9
+  lambda_: 0.00001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+Swimmer-l1e-6:
+  gamma: 0.9
+  lambda_: 0.000001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+
+# MPPIScale
+Swimmer-m0:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+Swimmer-m5e-5:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.00005
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+# Swimmer-m1e-4
+Swimmer-m1.5e-4:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.00015
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+Swimmer-m2e-4:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0002
+  init_cov_diag: 0.02
+  horizon: 5
+  num_samples: 5000
+
+# Noise Std.
+Swimmer-s1e-2:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.01
+  horizon: 5
+  num_samples: 5000
+Swimmer-s1.5e-2:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.015
+  horizon: 5
+  num_samples: 5000
+# Swimmer-s2e-2
+Swimmer-s2.5e-2:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.025
+  horizon: 5
+  num_samples: 5000
+Swimmer-s3e-2:
+  gamma: 0.9
+  lambda_: 0.0001
+  mppi_scale: 0.0001
+  init_cov_diag: 0.03
+  horizon: 5
+  num_samples: 5000
+
+
+
+
+##############################################  HalfCheetah  #################################################
+### Original
+HalfCheetah-original:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+
+# Horizon
+HalfCheetah-1-10000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 1
+  num_samples: 10000
+HalfCheetah-2-10000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-3-10000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 3
+  num_samples: 10000
+HalfCheetah-4-10000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 4
+  num_samples: 10000
+HalfCheetah-5-10000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 5
+  num_samples: 10000
+
+# Samples
+HalfCheetah-2-100:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 100
+
+HalfCheetah-2-1000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 1000
+
+HalfCheetah-2-5000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 5000
+HalfCheetah-2-7500:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 7500
+#HalfCheetah-2-10000
+HalfCheetah-2-12500:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 12500
+HalfCheetah-2-15000:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 15000
+
+# Lambda
+HalfCheetah-l5e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-l5e-4:
+  gamma: 0.9
+  lambda_: 0.0005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+#HalfCheetah-l5e-5
+HalfCheetah-l5e-6:
+  gamma: 0.9
+  lambda_: 0.000005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-l5e-7:
+  gamma: 0.9
+  lambda_: 0.0000005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+
+# MPPIScale
+HalfCheetah-m0:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-m5e-8:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.00000005
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+# HalfCheetah-m1e-7:
+HalfCheetah-m1.5e-7:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.00000015
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-m2e-7:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000002
+  init_cov_diag: 0.017
+  horizon: 2
+  num_samples: 10000
+
+# Noise Std.
+HalfCheetah-s1e-2:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.01
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-s1.5e-2:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.015
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-s2e-2:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.02
+  horizon: 2
+  num_samples: 10000
+HalfCheetah-s2.5e-2:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.0000001
+  init_cov_diag: 0.025
+  horizon: 2
+  num_samples: 10000
+
+
+##############################################  Ant  #################################################
+### Original
+Ant-original:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+
+Ant-5-50:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 50
+Ant-5-500:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 500
+
+
+# Horizon
+Ant-3-5000:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 3
+  num_samples: 5000
+Ant-4-5000:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 4
+  num_samples: 5000
+Ant-5-5000:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+Ant-6-5000:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 6
+  num_samples: 5000
+Ant-7-5000:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 7
+  num_samples: 5000
+
+# Samples
+Ant-5-2500:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 2500
+Ant-5-3750:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 3750
+#Ant-5-5000
+Ant-5-6250:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 6250
+Ant-5-7500:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 7500
+
+# Lambda
+Ant-l5e-1:
+  gamma: 0.9
+  lambda_: 0.5
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+Ant-l5e-2:
+  gamma: 0.9
+  lambda_: 0.05
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+#Ant-l5e-3
+Ant-l5e-4:
+  gamma: 0.9
+  lambda_: 0.0005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+Ant-l5e-5:
+  gamma: 0.9
+  lambda_: 0.00005
+  mppi_scale: 0.01
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+
+# MPPIScale
+Ant-m0:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+Ant-m5e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.005
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+#Ant-m1e-2
+Ant-m1.5e-2:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.015
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+Ant-m2e-2:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.02
+  init_cov_diag: 0.005
+  horizon: 5
+  num_samples: 5000
+
+# Noise Std.
+Ant-s1e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.001
+  horizon: 5
+  num_samples: 5000
+Ant-s3e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.003
+  horizon: 5
+  num_samples: 5000
+# Ant-s5e-3
+Ant-s7e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.007
+  horizon: 5
+  num_samples: 5000
+Ant-s9e-3:
+  gamma: 0.9
+  lambda_: 0.005
+  mppi_scale: 0.01
+  init_cov_diag: 0.009
+  horizon: 5
+  num_samples: 5000

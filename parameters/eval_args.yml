@@ -1,0 +1,26 @@
+demo:
+  episodes: 1
+  visualize: False
+  seed: 0
+
+test:
+  episodes: 10
+  visualize: False
+  seed: 0
+
+ablation:
+  episodes: 100
+  visualize: False
+  seed: 0
+
+fullexp:
+  episodes: 500
+  visualize: False
+  seed: 0
+
+
+visualize:
+  episodes: 1
+  visualize: True
+  seed: 0
+

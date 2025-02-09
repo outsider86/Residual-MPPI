@@ -1,0 +1,55 @@
+# Annotate the prior_policy_path to the IL one for the IL Prior experiments
+
+Hopper-modified-Z-v0:
+  env_kwargs: {}
+  
+
+  dynamics_path: "logs/Hopper-v3/Hopper-v3 Dynamics.pth"
+
+  # RL
+  prior_policy_path: "logs/Hopper-v3/Hopper-v3 RL Prior.zip"
+  # IL
+  # prior_policy_path: "logs/Hopper-v3/Hopper-v3 IL Prior.zip"
+
+  
+
+Swimmer-modified-Angle-v0:
+  env_kwargs: {}
+  
+
+  dynamics_path: "logs/Swimmer-v3/Swimmer-v3 Dynamics.pth"
+
+  # RL
+  prior_policy_path: "logs/Swimmer-v3/Swimmer-v3 RL Prior.zip"
+  # IL
+  # prior_policy_path: "logs/Swimmer-v3/Swimmer-v3 IL Prior.zip"
+
+ 
+
+Ant-modified-Y-v0:
+  env_kwargs: 
+  # the Ant would never make it to 10, so we set it for a safe upper bound
+    healthy_z_range: [0.2, 10]
+  
+
+  dynamics_path: "logs/Ant-v3/Ant-v3 Dynamics.pth" 
+
+  # RL Prior
+  prior_policy_path: "logs/Ant-v3/Ant-v3 RL Prior.zip"
+  # IL Prior
+  # prior_policy_path: "logs/Ant-v3/Ant-v3 IL Prior.zip"
+
+  
+
+HalfCheetah-modified-Angle-v0:
+  env_kwargs: {}
+
+
+  dynamics_path: "logs/HalfCheetah-v3/HalfCheetah-v3 Dynamics.pth"
+  
+  # RL
+  prior_policy_path: "logs/HalfCheetah-v3/HalfCheetah-v3 RL Prior.zip"
+  # IL
+  # prior_policy_path: "logs/HalfCheetah-v3/HalfCheetah-v3 IL Prior.zip"
+
+  

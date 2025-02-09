@@ -1,0 +1,77 @@
+
+prior:
+  type: "Prior Policy"
+  prior: True
+
+residual_mppi:
+  type: "Residual-MPPI"
+  prior: False
+
+  prior_guided: True    # Sample from the prior policy
+  full_mppi: False      # No full reward
+  without_log: False    # Residual reward term is used
+  value: False          # No prior value function
+
+  eval_prior: True
+  noise_abs_cost: True
+
+
+
+greedy_mppi:
+  type: "Greedy-MPPI"
+  prior: False
+
+  prior_guided: True    # Sample from the prior policy
+  full_mppi: False      # No full reward
+  without_log: True     # No residual reward term
+  value: False          # No prior value function
+
+  eval_prior: True
+  noise_abs_cost: True
+
+
+
+
+guided_mppi:
+    type: "Guided-MPPI"
+    prior: False
+
+    prior_guided: True  # Sample from the prior policy
+    full_mppi: True     # Has full reward
+    without_log: False  # Disabled when full_mppi is True
+    value: False        # No prior value function
+
+    eval_prior: True
+    noise_abs_cost: True
+
+
+
+valued_mppi:
+    type: "Valued-MPPI"
+    prior: False
+
+    prior_guided: True    # Sample from the prior policy
+    full_mppi: True       # Has full reward
+    without_log: False    # Disabled when full_mppi is True
+    value: True           # Has prior value function
+
+    eval_prior: True
+    noise_abs_cost: True
+
+
+
+
+full_mppi:
+    type: "Full-MPPI"
+    prior: False
+    
+    prior_guided: False    # Sample from uniform distribution
+    full_mppi: True        # Has full reward
+    without_log: False     # Disabled when full_mppi is True
+    value: False           # No prior value function
+
+    eval_prior: False      # The prior for full MPPI is the zero input
+    noise_abs_cost: True
+    
+
+
